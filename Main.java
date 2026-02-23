@@ -40,9 +40,13 @@ public class Main {
         // byte b2 = (byte) 128;
         // System.out.println(b2);
 
-        int n = 10;
-        double d =5.5;
-        System.out.println(n + d);
+        // int n = 10;
+        // double d =5.5;
+        // System.out.println(n + d);
+
+        int num2 = 66;
+        char ch2 = (char) num2;
+        System.out.println("Character value of num2: " + ch2);
 
     }
 }
