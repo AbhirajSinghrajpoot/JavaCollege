@@ -32,5 +32,6 @@ public class Main {
         byte b = 3;
         byte sum = (byte) (a + b);
         System.out.println(sum);
+        
     }
 }
