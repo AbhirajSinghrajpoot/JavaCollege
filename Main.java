@@ -44,9 +44,20 @@ public class Main {
         // double d =5.5;
         // System.out.println(n + d);
 
-        int num2 = 66;
-        char ch2 = (char) num2;
-        System.out.println("Character value of num2: " + ch2);
+        // int num2 = 66;
+        // char ch2 = (char) num2;
+        // System.out.println("Character value of num2: " + ch2);
 
+        int arr[] = {1, 2, 3, 4, 5, 6, 0};
+    
+        int largest = arr[0];
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] > largest) {
+                largest = arr[i];
+            }
+        }
+        
+        System.out.println("Largest element: " + largest);
+ 
     }
 }
