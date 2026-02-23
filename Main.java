@@ -48,16 +48,30 @@ public class Main {
         // char ch2 = (char) num2;
         // System.out.println("Character value of num2: " + ch2);
 
-        int arr[] = {1, 2, 3, 4, 5, 6, 0};
+        // int arr[] = {1, 2, 3, 4, 5, 6, 0};
     
-        int largest = arr[0];
-        for (int i = 1; i < arr.length; i++) {
-            if (arr[i] > largest) {
-                largest = arr[i];
+        // int largest = arr[0];
+        // for (int i = 1; i < arr.length; i++) {
+        //     if (arr[i] > largest) {
+        //         largest = arr[i];
+        //     }
+        // }
+        
+        // System.out.println("Largest element: " + largest);
+
+        int arr[] = {1, 2, 3, 4, 5, 6, 0};
+        int target = 3;
+        
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 1; j < arr.length; j++) {
+
+                int sum = arr[i] + arr[j];
+                if (sum == target) {
+                    System.out.println("Pair found: " + arr[i] + " + " + arr[j] + " = " + target);
+                    break;
+                  }
             }
         }
-        
-        System.out.println("Largest element: " + largest);
  
     }
 }
