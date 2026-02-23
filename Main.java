@@ -28,10 +28,21 @@ public class Main {
         // byte a = 4;
         // byte b = (byte) (a);
         // System.out.println(b); 
-        int a = 4;
-        byte b = 3;
-        byte sum = (byte) (a + b);
-        System.out.println(sum);
-        
+        // int a = 4;
+        // byte b = 3;
+        // byte sum = (byte) (a + b);
+        // System.out.println(sum);
+
+        // float f= 25.99f;
+        // int n = (int) f;
+        // System.out.println("3. float to int: " + n);
+
+        // byte b2 = (byte) 128;
+        // System.out.println(b2);
+
+        int n = 10;
+        double d =5.5;
+        System.out.println(n + d);
+
     }
 }
