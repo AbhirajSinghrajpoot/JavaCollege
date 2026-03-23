@@ -61,10 +61,10 @@
 //         }
 //     }
 // }
-public class Main {
+// public class Main {
 
-    public static void main(String[] args) {
-        String a = "madam";
+//     public static void main(String[] args) {
+//         String a = "madam";
         // for (int i = 0; i < a.length(); i++) {
         //     System.out.println(a.charAt(i));
         // }
@@ -91,17 +91,14 @@ public class Main {
         //     }
         // }
         // System.out.println(result);
-        String frequency = "hello world";
-        for (int i = 0; i < frequency.length(); i++) {
-            char current = frequency.charAt(i);
-            int count = 0;
-            for (int j = 0; j < frequency.length(); j++) {
-                if (frequency.charAt(j) == current) {
-                    count++;
-                }
-            }
-            System.out.println(current + ": " + count);
-        }
-    }
-}
-
+        // String frequency = "hello world";
+        // for (int i = 0; i < frequency.length(); i++) {
+        //     char current = frequency.charAt(i);
+        //     int count = 0;
+        //     for (int j = 0; j < frequency.length(); j++) {
+        //         if (frequency.charAt(j) == current) {
+        //             count++;
+        //         }
+        //     }
+        //     System.out.println(current + ": " + count);
+        // }

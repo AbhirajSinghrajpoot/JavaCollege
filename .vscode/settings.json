@@ -1,0 +1,6 @@
+{
+    "java.project.explorer.showNonJavaResources": true,
+    "java.dependency.packagePresentation": "flat",
+    "java.dependency.syncWithFolderExplorer": true,
+    "java.debug.settings.onBuildFailureProceed": true
+}
